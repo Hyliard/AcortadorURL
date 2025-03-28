@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Acortador de enlaces para compartir fácilmente tus URLs largas.">
+  <meta name="keywords" content="acortador de enlaces, URL corta, compartir enlaces">
+  <meta name="author" content="Hyliard">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Acortador de Enlaces</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/image/Gaming Logo.png" type="image/x-icon">
+</head>
+<header>
+    <h1>Acortador de Enlaces</h1>
+    <img src="assets/image/Gaming Logo.png" alt="Logo de Acortador de Enlaces">
+    <p>Acorta tus enlaces largos fácilmente</p>
+</header>
+    
+<body>
+  <div class="container">
+    <h1>Acortador de Enlaces</h1>
+    <p>Bienvenido a mi acortador de enlaces. Puedes acortar tus enlaces largos para compartirlos fácilmente.</p>
+    <form id="shortenForm">
+      <input type="url" id="longUrl" placeholder="Pega tu enlace aqui" required>
+      <button type="submit">Acortar</button>
+    </form>
+    <div id="result" class="hidden">
+      <p>Tu enlace acortado:</p>
+      <a id="shortUrl" target="_blank" rel="noopener noreferrer"></a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <div class="container-footer">
+    <footer>
+      <!-- Logo del pie de página -->
+      <div class="logo-footer">
+        <img src="assets/image/Gaming Logo.png" alt="Logo de Gaming de Hyliard" />
+      </div>
+  
+      <!-- Enlaces a redes sociales -->
+      <div class="redes-footer">
+        <a href="https://www.linkedin.com/in/luis-gerardo-martinez-03898582/" target="_blank" rel="noopener"
+          aria-label="LinkedIn de Luis Gerardo Martínez">
+          <i class="fab fa-linkedin-in icon-redes"></i>
+        </a>
+        <a href="https://github.com/Hyliard" target="_blank" rel="noopener" aria-label="GitHub de Hyliard">
+          <i class="fab fa-github icon-redes"></i>
+        </a>
+        <a href="https://www.twitch.tv/hyliard" target="_blank" rel="noopener" aria-label="Twitch de Hyliard">
+          <i class="fab fa-twitch icon-redes"></i>
+        </a>
+      </div>
+      <hr />
+      <p>© 2025 Hyliard. Todos los derechos reservados.</p>
+      <h4>Luis Gerardo Martínez Hernández</h4>
+    </footer>
+  </div>
+  </body>
+  
+  </html>
