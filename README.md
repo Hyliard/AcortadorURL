@@ -1,6 +1,6 @@
 # Acortador de Enlaces 🔗
 
-![Preview de la aplicación](asset/images/Demo.png)  
+![Preview de la aplicación](assets/images/Demo.png)  
 *Logo del proyecto*
 
 Un acortador de URLs simple y elegante desarrollado con HTML, CSS y JavaScript.
@@ -39,7 +39,7 @@ Estadísticas de clicks
 Historial de enlaces acortados
 Vista Previa 🖼
 
-![Preview de la aplicación](asset/images/Demo.png) 
+![Preview de la aplicación](assets/images/Demo.png) 
 
 Captura de pantalla
 Interfaz del acortador de enlaces
